@@ -1,4 +1,4 @@
-import 'package:bloc/my_app.dart';
+import 'package:bloc_template/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -7,9 +7,9 @@ class BlocWrapper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MultiBlocProvider(
+    return MultiBlocProvider(
       providers: [],
-      child: MyApp(),
+      child: const MyApp(),
     );
   }
 }

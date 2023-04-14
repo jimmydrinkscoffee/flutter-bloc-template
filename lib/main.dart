@@ -1,4 +1,4 @@
-import 'package:bloc/bloc_wrapper.dart';
+import 'package:bloc_template/index.dart';
 import 'package:flutter/material.dart';
 
 void main() {
