@@ -8,7 +8,9 @@ class BlocWrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
-      providers: [],
+      providers: [
+        BlocProvider(create: (context) => AuthBloc()),
+      ],
       child: const MyApp(),
     );
   }
