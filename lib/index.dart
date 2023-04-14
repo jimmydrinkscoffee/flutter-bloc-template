@@ -1,2 +1,2 @@
-export "bloc_wrapper.dart";
-export "my_app.dart";
+export "app/index.dart";
+export "blocs/index.dart";
