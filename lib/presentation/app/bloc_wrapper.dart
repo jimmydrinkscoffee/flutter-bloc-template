@@ -1,5 +1,5 @@
-import 'package:bloc_template/app/my_app.dart';
-import 'package:bloc_template/blocs/auth/auth_bloc.dart';
+import 'package:bloc_template/app/blocs/auth/auth_bloc.dart';
+import 'package:bloc_template/presentation/app/my_app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
