@@ -1,4 +1,4 @@
-import 'package:bloc_template/index.dart';
+import 'package:bloc_template/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

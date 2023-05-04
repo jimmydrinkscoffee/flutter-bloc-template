@@ -1,4 +1,5 @@
-import 'package:bloc_template/index.dart';
+import 'package:bloc_template/app/my_app.dart';
+import 'package:bloc_template/blocs/auth/auth_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
